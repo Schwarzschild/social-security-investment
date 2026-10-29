@@ -2,6 +2,8 @@
 
 Should I wait until age 70 to start taking Social Security payments?
 
+Sponsored by [The Brookhaven Group, LLC](https://thebrookhavengroup.com/).
+
 Compare the future value of investing monthly Social Security benefits starting
 at age 67 versus age 70, with an optional after-tax comparison.
 
@@ -22,7 +24,8 @@ does not calculate tax brackets or check tax thresholds.
 
 To use it offline, download or clone this repository and open
 [`web/index.html`](web/index.html) in a modern browser. Keep `app.js` and
-`style.css` alongside it. A link to the HTML file on github.com shows its source;
+`style.css` alongside it. The sponsor logo loads directly from The Brookhaven
+Group website and requires internet access; calculations work offline. A link to the HTML file on github.com shows its source;
 the interactive-calculator link above opens the working GitHub Pages site.
 
 The browser model supports whole-year start ages 67–70, assuming full retirement

@@ -130,8 +130,9 @@ BROWSER-ONLY CALCULATOR
 Open web/index.html directly in a modern browser. No server, Python, package
 installation, internet connection, or build step is required. Keep index.html,
 app.js, and style.css together in the web directory when copying the page.
-Calculations stay in the browser; there are no analytics or network requests.
-External reference links use the internet only when opened.
+Calculations stay in the browser; there are no analytics. The sponsor logo
+loads directly from thebrookhavengroup.com and requires internet access;
+calculations work offline. External reference links use the internet when opened.
 
 The form defaults to PIA $4,152, start age 67 versus age 70, end age 90,
 and a 10.00% effective annual return. Start ages 67, 68, 69, and 70 are
