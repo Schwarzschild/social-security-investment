@@ -1,0 +1,85 @@
+{
+  "inputs": {
+    "P_PIA": 4152.0,
+    "n70": 240,
+    "n67": 276,
+    "annual_rate": 0.1
+  },
+  "derived_benefits": {
+    "P67": 4152.0,
+    "P70": 5148.48,
+    "full_retirement_age": 67,
+    "factor_67": 1.0,
+    "factor_70": 1.24
+  },
+  "derived_monthly_rate": 0.007974140428903742,
+  "FV1": 4174696.954655886,
+  "FV2": 3727431.1896920777,
+  "delta_FV1_minus_FV2": 447265.76496380847,
+  "equation_4_solution": {
+    "status": "Unique nonzero solution found.",
+    "monthly_rate": 0.0036347669506983965,
+    "monthly_rate_percent": 0.36347669506983965,
+    "iterations": 47,
+    "FV1_at_solution": 1974224.2219518975,
+    "FV2_at_solution": 1974224.2219517152,
+    "relative_difference": -9.234330728691761e-14
+  },
+  "tax_scenario": {
+    "benefit_tax_rate": 0.3145,
+    "capital_gains_tax_rate": 0.356,
+    "timing": "Income tax deducted from each monthly benefit before investment; capital-gains tax on growth only at the common endpoint (age 90 in the supplied config)",
+    "configured_rate_after_tax_FV1": 2122625.901172303,
+    "configured_rate_after_tax_FV2": 1947061.1708014437,
+    "configured_rate_after_tax_delta_FV1_minus_FV2": 175564.73037085938,
+    "configured_rate_details_FV1": {
+      "net_monthly_payment": 2846.196,
+      "invested_principal": 785550.096,
+      "cumulative_growth": 2076204.66641662,
+      "cumulative_investment_tax": 739128.8612443167,
+      "final_value": 2122625.901172303
+    },
+    "configured_rate_details_FV2": {
+      "net_monthly_payment": 3529.28304,
+      "invested_principal": 847027.9295999999,
+      "cumulative_growth": 1708126.150933919,
+      "cumulative_investment_tax": 608092.9097324752,
+      "final_value": 1947061.1708014437
+    },
+    "break_even_monthly_rate_in_chart": 0.0045465857586335385,
+    "annual_return_comparisons": [
+      {
+        "annual_rate": 0.05,
+        "monthly_rate": 0.004074123783648302,
+        "FV1": 2119721.563679546,
+        "FV2": 2097788.246737985,
+        "after_tax_FV1": 1215432.3551210999,
+        "after_tax_FV2": 1227635.7379190442
+      },
+      {
+        "annual_rate": 0.1,
+        "monthly_rate": 0.007974140428903742,
+        "FV1": 4174696.954655886,
+        "FV2": 3727431.1896920777,
+        "after_tax_FV1": 2122625.901172303,
+        "after_tax_FV2": 1947061.1708014437
+      },
+      {
+        "annual_rate": 0.15,
+        "monthly_rate": 0.011714916919853284,
+        "FV1": 8566805.976157364,
+        "FV2": 6832411.066879052,
+        "after_tax_FV1": 4061575.134022382,
+        "after_tax_FV2": 3317791.7973441603
+      },
+      {
+        "annual_rate": 0.2,
+        "monthly_rate": 0.015309470499731217,
+        "FV1": 17966299.71306651,
+        "FV2": 12748635.222716592,
+        "after_tax_FV1": 8211094.438105769,
+        "after_tax_FV2": 5929579.945628513
+      }
+    ]
+  }
+}
